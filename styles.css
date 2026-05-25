@@ -343,6 +343,20 @@ a {
   margin: 0 auto;
   padding: 34px 24px 44px;
 }
+.ph-badge {
+  display: inline-block;
+  margin: 0 0 16px;
+  transform: rotate(-1.5deg);
+  transition: transform 0.15s ease;
+}
+.ph-badge:hover {
+  transform: rotate(0deg) scale(1.02);
+}
+.ph-badge img {
+  display: block;
+  width: 250px;
+  height: 54px;
+}
 .sky-wrap {
   position: relative;
 }
